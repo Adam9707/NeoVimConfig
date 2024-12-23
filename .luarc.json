@@ -9,5 +9,8 @@
         "raquire",
         "ui",
         "extensions"
+    ],
+    "diagnostics.disable": [
+        "unused-local"
     ]
 }

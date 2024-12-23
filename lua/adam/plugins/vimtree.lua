@@ -1,5 +1,3 @@
-
-
 return {
   "nvim-tree/nvim-tree.lua",
   version = "*",
@@ -8,7 +6,7 @@ return {
     "nvim-tree/nvim-web-devicons",
   },
 
-  config = function()    
+  config = function()
 	vim.keymap.set('n','<C-b>', require("nvim-tree.api").tree.toggle)
 	require("nvim-tree").setup {
 	sort = {
@@ -25,7 +23,7 @@ return {
               show = {
               git = true,
               },
-           },				
+           },
 	},
 	   filters = {
 	   dotfiles = true,
